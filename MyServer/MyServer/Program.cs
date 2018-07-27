@@ -13,7 +13,7 @@ namespace MyServer
             serverStart.LE = LengthEncoding.encode;
             serverStart.encode = MessageEncoding.encode;
             serverStart.decode = MessageEncoding.decode;
-            //serverStart.center = new HandlerCenter();
+            serverStart.center = new HandlerCenter();
             serverStart.Start(6650);
             Console.WriteLine("服务器已启动");
             while (true)
