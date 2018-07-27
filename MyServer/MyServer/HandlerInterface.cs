@@ -21,6 +21,6 @@ namespace MyServer
         /// </summary>
         /// <param name="token"></param>
         /// <param name="message"></param>
-        void MessageReceive(UserToken token, SocketModel message)
+        void MessageReceive(UserToken token, SocketModel message);
     }
 }
